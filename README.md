@@ -2,6 +2,13 @@
 realtek-rtl8188eus-dkms packaging for Kali Linux
 
 
+apt update
+
+apt dist-upgrade
+
+reboot
+
+apt install linux-headers-$(uname -r) 
 
 sudo apt install bc
 
