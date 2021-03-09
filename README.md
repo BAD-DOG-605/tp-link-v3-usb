@@ -1,20 +1,21 @@
 # tp-link-v3-TL-WN722N
 realtek-rtl8188eus-dkms packaging for Kali Linux
 
+## copy  and past the below commands
 
-apt update
+sudo  apt update
 
-apt dist-upgrade
+sudo apt dist-upgrade
 
 reboot
 
-apt install linux-headers-$(uname -r) 
+sudo apt install linux-headers-$(uname -r) 
 
 sudo apt install bc
 
 sudo rmmod r8188eu.ko
 
-git clone https://github.com/keralahacker/tp-link-v3-TL-WN722N/
+sudo git clone https://github.com/keralahacker/tp-link-v3-TL-WN722N/
 
 cd tp-link-v3-TL-WN722N
 
@@ -28,15 +29,20 @@ echo "blacklist r8188eu.ko" > "/etc/modprobe.d/realtek.conf"
 
 exit
 
-make
+sudo make
 
 sudo make install
 
 sudo modprobe 8188eu
 
 
+----------------------------------------------------------------------------------
+#### if you face any issues ===> 
+https://github.com/keralahacker/tp-link-v3-TL-WN722N/issues/new 
+#### submit with screenshot
+----------------------------------------------------------------------------------
 
-To enable Monitor mode
+## To enable Monitor mode
 
 ifconfig wlan0 down
 
