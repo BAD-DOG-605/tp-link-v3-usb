@@ -19,7 +19,7 @@ sudo git clone https://github.com/keralahacker/tp-link-v3-usb
 
 cd tp-link-v3-usb
 
-sudo unzip realtek-rtl8188eus-keralahacker.zip
+sudo unzip tp-link-v3-usb-HWV.zip
 
 cd realtek-rtl8188eus-keralahacker
 
