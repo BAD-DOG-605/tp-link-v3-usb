@@ -15,9 +15,9 @@ sudo apt install bc
 
 sudo rmmod r8188eu.ko
 
-sudo git clone https://github.com/keralahacker/tp-link-v3-TL-WN722N/
+sudo git clone https://github.com/keralahacker/tp-link-v3-usb
 
-cd tp-link-v3-TL-WN722N
+cd tp-link-v3-usb
 
 sudo unzip realtek-rtl8188eus-keralahacker.zip
 
