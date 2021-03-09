@@ -38,7 +38,7 @@ sudo modprobe 8188eu
 
 ----------------------------------------------------------------------------------
 #### if you face any issues ===> 
-https://github.com/keralahacker/tp-link-v3-TL-WN722N/issues/new 
+https://github.com/keralahacker/tp-link-v3-usb/issues/new 
 #### submit with screenshot
 ----------------------------------------------------------------------------------
 
