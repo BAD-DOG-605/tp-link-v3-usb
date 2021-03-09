@@ -21,8 +21,6 @@ cd tp-link-v3-usb
 
 sudo unzip tp-link-v3-usb-HWV.zip
 
-cd realtek-rtl8188eus-keralahacker
-
 sudo -i
 
 echo "blacklist r8188eu.ko" > "/etc/modprobe.d/realtek.conf"
