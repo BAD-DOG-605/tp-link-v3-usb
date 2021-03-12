@@ -78,6 +78,6 @@ Insert the adapter and run the command
 
 sudo rmmod r8188eu.ko
 
-Sudo modprobe 8188eu
+sudo modprobe 8188eu
 
 Disconnect the device and connect again..
